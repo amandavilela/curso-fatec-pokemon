@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+.pokedex {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+	border: solid 1px;
+	padding: 20px;
+	text-align: center;
+	margin: 20px 0;
+}
