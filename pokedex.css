@@ -7,15 +7,47 @@ ul, ol {
 	list-style: none;
 }
 
+img {
+	max-width: 100%;
+}
+
+body {
+	font-size: 16px;
+	font-family: monospace;
+	background: #03bafc;
+}
+
 .pokedex {
 	display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
+h1 {
+	font-size: 3rem;
+	text-align: center;
+	margin: 1rem 0;
+	color: white;
+}
+
 .card {
-	border: solid 1px;
-	padding: 20px;
+	border: solid 6px #fff;
+	border-radius: 10px;
+	background: #fc5858;
+	color: white;
+	padding: 1.75rem;
 	text-align: center;
 	margin: 20px 0;
+	width: 26vw;
+}
+
+.card-title {
+	font-size: 2rem;
+	margin: .5rem 0;
+}
+
+.card-image {
+	margin: 1rem 0 1.5rem 0;
+	background: white;
+	border-radius: 10px;
 }
